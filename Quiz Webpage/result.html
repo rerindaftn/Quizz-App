@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+  </head>
+  <body>
+    <script>
+      // Mendapatkan nilai username dari URL
+      var urlParams = new URLSearchParams(window.location.search);
+      var username = urlParams.get('username');
+
+      // Menampilkan nilai username di halaman result
+      document.write('Welcome, ' + username + '!');
+    </script>
+  </body>
+</html>
